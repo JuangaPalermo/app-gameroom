@@ -1,1 +1,12 @@
-<p>quien-soy works!</p>
+<h1>{{ title }}</h1>
+<ul>
+  <li *ngFor="let info of personalInformation">{{ info }}</li>
+</ul>
+<h2>Foto de perfil</h2>
+<img src="./images/perfil.jpg" alt="error al cargar la foto de perfil" />
+<h2>Que juegos habra?</h2>
+<ol>
+  <li *ngFor="let game of games">{{ game }}</li>
+</ol>
+
+<router-outlet></router-outlet>

@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { QuienSoyComponent } from './Components/Quien-soy/quien-soy.component';
 import { LoginComponent } from './Components/Login/login.component';
 import { HomeComponent } from './Components/Home/home.component';
+import { AppRoutingModule } from './app-routing.module';
+import { NotFoundComponent } from './Components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -13,8 +15,9 @@ import { HomeComponent } from './Components/Home/home.component';
     QuienSoyComponent,
     LoginComponent,
     HomeComponent,
+    NotFoundComponent,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [QuienSoyService],
   bootstrap: [AppComponent],
 })
