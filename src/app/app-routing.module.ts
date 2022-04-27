@@ -1,3 +1,4 @@
+import { RegisterComponent } from './Components/register/register.component';
 import { HomeComponent } from './Components/Home/home.component';
 import { NotFoundComponent } from './Components/not-found/not-found.component';
 import { LoginComponent } from './Components/Login/login.component';
@@ -13,6 +14,7 @@ const routes: Routes = [
     children: [{ path: 'login', component: LoginComponent }],
   },
   { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
   { path: '**', component: NotFoundComponent },
 ];
 

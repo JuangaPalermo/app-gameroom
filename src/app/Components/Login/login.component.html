@@ -1,3 +1,23 @@
-<p>Estas en el Login!</p>
-
-<input type="button" class="btn btn-primary" (click)="redirect()" value="Redirigir">
+<!-- Aca tiene que ir el form del login -->
+<body>
+    <header>
+        <h1>Inicio de sesion</h1>
+    </header>
+    <main>
+        <form id="login_form" class="form_class" action="login/login-access.php" method="post">
+            <div class="form_div">
+                <label>Usuario:</label>
+                <input class="field_class" name="login_txt" type="email" placeholder="Ingrese su usuario" autofocus>
+                <label>Clave:</label>
+                <input id="pass" class="field_class" name="password_txt" type="password" placeholder="Ingrese su clave">
+                <button class="submit_class" type="submit" form="login_form">Ingresar</button>
+            </div>
+            <div class="info_div">
+                <p>Aun no tiene un usuario? <a href="register">Registrese!</a></p>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Desarrollado por <a href="#">Juan Gabriel Palermo</a></p>
+    </footer>
+</body>

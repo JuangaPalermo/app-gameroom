@@ -1,1 +1,25 @@
-<p>register works!</p>
+<!-- Aca tiene que ir el form del login -->
+<body>
+    <header>
+        <h1>Registro</h1>
+    </header>
+    <main>
+        <form id="login_form" class="form_class" action="login/login-access.php" method="post">
+            <div class="form_div">
+                <label>Usuario:</label>
+                <input class="field_class" name="login_txt" type="email" placeholder="Ingrese su usuario" autofocus>
+                <label>Clave:</label>
+                <input id="pass" class="field_class" name="password_txt" type="password" placeholder="Ingrese su clave">
+                <label>Confirme su clave:</label>
+                <input id="pass" class="field_class" name="password_txt" type="password" placeholder="Ingrese su clave">
+                <button class="submit_class" type="submit" form="login_form">Registrarse</button>
+            </div>
+            <div class="info_div">
+                <p>Ya tiene un usuario? <a href="login">Ingrese aqui!</a></p>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Desarrollado por <a href="#">Juan Gabriel Palermo</a></p>
+    </footer>
+</body>

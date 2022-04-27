@@ -8,12 +8,8 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
   constructor(public router: Router) {
-    //el public hace uqe lo pueda usar en cualquier scope
+    //el public hace que lo pueda usar en cualquier scope
   }
 
   ngOnInit(): void {}
-
-  redirect() {
-    this.router.navigateByUrl('');
-  }
 }
