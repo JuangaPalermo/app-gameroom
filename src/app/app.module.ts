@@ -8,6 +8,7 @@ import { LoginComponent } from './Components/Login/login.component';
 import { HomeComponent } from './Components/Home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NotFoundComponent } from './Components/not-found/not-found.component';
+import { RegisterComponent } from './Components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { NotFoundComponent } from './Components/not-found/not-found.component';
     LoginComponent,
     HomeComponent,
     NotFoundComponent,
+    RegisterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [QuienSoyService],

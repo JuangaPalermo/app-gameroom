@@ -1,6 +1,7 @@
-div {
-    display: flex;
-    justify-content: space-between;
-    width: 80vw;
-    margin-left: 10%;
+body {
+    padding-bottom: 20px;
+}
+
+.navbar {
+margin-bottom: 20px;
 }
